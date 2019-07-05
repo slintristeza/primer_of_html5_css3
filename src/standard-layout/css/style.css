@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 html {
-  font-size: 62.5％;
+  font-size: 62.5%;
 }
 body {
   color: #333;
@@ -20,6 +20,7 @@ a:active {
   color: #d03c56;
   text-decoration: none;
 }
+
 .clearfix::after {
   content: '';
   display: block;
@@ -27,6 +28,12 @@ a:active {
 }
 .hidden {
   display: none;
+}
+.heading {
+  padding: 10px 12px;
+  background: url("../images/bg-slash.gif");
+  letter-spacing: 1px;
+  font-size: 1.6rem;
 }
 
 .header {
@@ -132,6 +139,13 @@ a:active {
   font-weight: bold;
   font-size: 1.1rem;
   line-height: 1;
+}
+
+.scroll-list {
+  max-height: 220px;
+  overflow-y: auto;
+  margin-bottom: 30px;
+  list-style-type: none;
 }
 
 .sidemenu {
