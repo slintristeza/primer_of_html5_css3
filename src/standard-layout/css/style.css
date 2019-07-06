@@ -151,6 +151,7 @@ a:active {
   display: block;
   padding: 10px 15px;
   color: #333;
+  font-size: 0;
   transition: background-color 0.1s;
 }
 .scroll-list .scroll-item:nth-of-type(even) a {
@@ -162,15 +163,18 @@ a:active {
 .scroll-list .date {
   display: inline-block;
   width: 19%;
+  font-size: 1.0rem;
 }
 .scroll-list .category {
   display: inline-block;
   width: 8%;
+  font-size: 1.0rem;
 }
 .scroll-list .title {
   display: inline-block;
   widows: 73%;
   padding-left: 15px;
+  font-size: 1.0rem;
 }
 
 .sidemenu {
