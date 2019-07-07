@@ -31,7 +31,7 @@ a:active {
 }
 .heading {
   padding: 10px 12px;
-  background: url("../images/bg-slash.gif");
+  background: url('../images/bg-slash.gif');
   letter-spacing: 1px;
   font-size: 1.6rem;
 }
@@ -121,7 +121,7 @@ a:active {
   margin-bottom: 15px;
   color: #fff;
   font-weight: normal;
-  font-size: 2.0rem;
+  font-size: 2rem;
 }
 .hot-topic .desc {
   color: #ddc;
@@ -165,7 +165,7 @@ a:active {
   width: 19%;
   letter-spacing: 1px;
   font-weight: bold;
-  font-size: 1.0rem;
+  font-size: 1rem;
 }
 .scroll-list .category {
   display: inline-block;
@@ -175,7 +175,7 @@ a:active {
   color: #fff;
   text-align: center;
   letter-spacing: 1px;
-  font-size: 1.0rem;
+  font-size: 1rem;
   line-height: 16px;
 }
 .scroll-list .category.news {
@@ -188,7 +188,7 @@ a:active {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 1.0rem;
+  font-size: 1rem;
 }
 
 .article-box {
@@ -295,7 +295,7 @@ a:active {
   content: counter(ranking);
   counter-increment: ranking;
   display: inline-block;
-  font-size: 1.0rem;
+  font-size: 1rem;
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
@@ -375,13 +375,30 @@ a:active {
 
 .footer {
   width: 100%;
+  padding: 20px 0 30px;
+  background: #2d3d54 url('../images/bg-footer.gif');
+  color: #fff;
 }
-
-/* 確認用 */
-.footer {
-  border: 1px solid #aaa;
-  background-color: #ccc;
+.horizontal-list {
+  width: 970px;
+  margin: 0 auto;
+  text-align: right;
+  font-size: 0;
 }
-.footer {
-  height: 100px;
+.horizontal-list .horizontal-item {
+  display: inline-block;
+  padding: 0 15px;
+  letter-spacing: 1px;
+}
+.horizontal-list .horizontal-item + .horizontal-item {
+  border-left: 1px solid #bbb;
+}
+.horizontal-list .horizontal-item a {
+  border-bottom: 1px dashed #777;
+  color: #bbb;
+  font-size: 1.1rem;
+  transition: color 0.15s;
+}
+.horizontal-list .horizontal-item a:hover {
+  color: #ddd;
 }
