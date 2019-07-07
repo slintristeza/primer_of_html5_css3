@@ -402,3 +402,8 @@ a:active {
 .horizontal-list .horizontal-item a:hover {
   color: #ddd;
 }
+.copyright {
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+}
