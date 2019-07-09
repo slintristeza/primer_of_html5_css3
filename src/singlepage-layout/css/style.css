@@ -190,6 +190,26 @@ body {
   padding: 3px;
 }
 
+.work-box {
+  overflow: hidden;
+}
+.work-image {
+  -webkit-transition: transform 0.7s ease-in-out;
+  transition: transform 0.7s ease-in-out;
+}
+.work-box:nth-child(odd) .work-image {
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+}
+.work-box:nth-child(even) .work-image {
+  -webkit-transform-origin: bottom center;
+  transform-origin: bottom center;
+}
+.work-box:hover .work-image {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 .skills {
   padding: 80px 0;
   background-color: #fff;
