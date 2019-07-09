@@ -255,3 +255,26 @@ body {
   padding: 12px 0;
   font-size: 1.3rem;
 }
+
+@media (max-width: 768px) {
+  .button:hover {
+    opacity: 1;
+  }
+
+  .header {
+    padding-top: 60px;
+  }
+  .site-title-sub {
+    font-size: 1.7rem;
+  }
+  .site-title-sub::before,
+  .site-title-sub::after {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+  }
+  .site-title {
+    margin-top: 35px;
+    font-size: 5rem;
+  }
+}
