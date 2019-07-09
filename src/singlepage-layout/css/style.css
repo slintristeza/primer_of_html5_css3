@@ -260,6 +260,12 @@ body {
   .button:hover {
     opacity: 1;
   }
+  .heading {
+    font-size: 2.5rem;
+  }
+  body {
+    font-size: 1.3rem;
+  }
 
   .header {
     padding-top: 60px;
@@ -276,5 +282,9 @@ body {
   .site-title {
     margin-top: 35px;
     font-size: 5rem;
+  }
+
+  .about-text {
+    line-height: 1.8;
   }
 }
