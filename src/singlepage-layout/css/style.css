@@ -67,6 +67,10 @@ body {
 .button-showy {
   background-color: #f1b400;
 }
+.button-ghost {
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.15)
+}
 
 .header {
   padding: 170px 30px 80px;
@@ -184,10 +188,6 @@ body {
   width: 60%;
   margin-top: 20px;
   padding: 3px;
-}
-.button-ghost {
-  border: 1px solid #fff;
-  background-color: rgba(255, 255, 255, 0.15)
 }
 
 .skills {
